@@ -1,0 +1,11 @@
+{
+    "enable_signatures_tooltip": false,
+    "enable_docstrings_tooltip": false,
+    "anaconda_gutter_theme": "simple",
+    "anaconda_linter_mark_style": "none",
+    "pep8_ignore":
+    [
+        "E309",
+        "E501",
+    ],
+}

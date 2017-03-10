@@ -1,8 +1,9 @@
 [
     { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
     { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },
-    {"keys": ["ctrl+alt+m"], "command": "toggle_menu"},
-    { "keys": ["super+v"], "command": "paste_from_history" },
+    { "keys": ["ctrl+alt+m"], "command": "toggle_menu"},
+    { "keys": ["super+v"], "command": "paste_from_history"},
+    { "keys": ["super+s"], "command": "save_all"},
 
     // Scroll
     { "keys": ["ctrl+up"], "command": "scroll_lines", "args" : {"amount": 5.0} },
@@ -21,6 +22,8 @@
     { "keys": ["super+ñ"], "command": "move_to", "args" : {"extend": false, "to": "eol"} },
     { "keys": ["super+8"], "command": "move_to", "args" : {"extend": false, "to": "bof"} },
     { "keys": ["super+,"], "command": "move_to", "args" : {"extend": false, "to": "eof"} },
+    { "keys": ["ctrl+j"], "command": "move", "args": {"by": "words", "forward": false} },
+    { "keys": ["ctrl+l"], "command": "move", "args": {"by": "words", "forward": true} },
 
     // Select with I,J,K,L as Arrows
     { "keys": ["super+shift+i"], "command": "move", "args" : {"by": "lines", "extend": true, "forward": false} },
@@ -69,4 +72,7 @@
     // Sublime merge
     { "keys": ["ctrl+alt+s"], "command": "sublimerge"},
 
+    // Rename file
+    { "keys": ["f2"], "command": "side_bar_rename"},
+    { "keys": ["ctrl+delete"], "command": "chain", "args": {"commands": [["side_bar_delete"],["close"]]} },
 ]

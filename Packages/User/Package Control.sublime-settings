@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"anaconda_php",
+		"Chain of Command",
+		"Dictionaries",
+		"Djaneiro",
+		"File Navigator",
+		"Flask Completions",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Jinja2",
+		"jQuery Snippets pack",
+		"Material Theme",
+		"My Snippets",
+		"Package Control",
+		"PackageResourceViewer",
+		"Random Everything",
+		"SFTP",
+		"SideBarEnhancements",
+		"Smarty",
+		"Stack Overflow Snippets",
+		"SublimeLog",
+		"Sublimerge 3",
+		"Terminal",
+		"Zip Browser"
+	]
+}
