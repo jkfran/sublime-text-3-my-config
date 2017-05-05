@@ -28,7 +28,9 @@
 		".git",
 		".hg",
 		"CVS",
-		"tmp"
+		"tmp",
+		"smarty/cache",
+		"smarty/compile"
 	],
 	"font_face": "Operator Mono Light",
 	"font_options":
