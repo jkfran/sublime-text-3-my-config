@@ -1,0 +1,4 @@
+[submodule "Packages/Dictionaries"]
+	path = Packages/Dictionaries
+	url = https://github.com/titoBouzout/Dictionaries.git
+	branch = master
