@@ -41,6 +41,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Fix Mac Path",
 		"Vintage"
 	],
 	"indent_guide_options":
