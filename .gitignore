@@ -1,1 +1,16 @@
-.DS_Store
+# Blacklist all
+/*
+
+# Whitelist some files
+!.gitignore
+!README.md
+
+# Ignore all files named .DS_Store or ending with .log
+**/.DS_Store
+**.log
+
+# Whitelist Packages/User/ and Packages/Dictionaries/
+!Packages/
+Packages/*
+!Packages/User/*
+!Packages/Dictionaries/*
