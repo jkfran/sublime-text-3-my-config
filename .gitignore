@@ -12,5 +12,7 @@
 # Whitelist Packages/User/ and Packages/Dictionaries/
 !Packages/
 Packages/*
+!Packages/User/
 !Packages/User/*
+!Packages/Dictionaries/
 !Packages/Dictionaries/*
