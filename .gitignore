@@ -5,16 +5,18 @@
 !.gitignore
 !README.md
 
-# Ignore all files named .DS_Store, ending with .log, etc...
-**/.DS_Store
-**.log
-**.cache
-**.last-run
-
 # Whitelist Packages/User/ and Packages/Dictionaries/
 !Packages/
 Packages/*
 !Packages/User/
 !Packages/User/*
+Packages/User/Package Control.cache/
 !Packages/Dictionaries/
 !Packages/Dictionaries/*
+
+# Ignore all files named .DS_Store, ending with .log, etc...
+**/.DS_Store
+**.log
+**.cache
+**.last-run
+**.tmTheme

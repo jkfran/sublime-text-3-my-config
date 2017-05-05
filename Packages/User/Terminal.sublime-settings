@@ -1,0 +1,4 @@
+{
+    "terminal": "guake",
+    "parameters": ["-n", "%CWD%"]
+}

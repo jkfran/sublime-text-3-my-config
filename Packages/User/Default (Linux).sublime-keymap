@@ -74,5 +74,8 @@
 
     // Rename file
     { "keys": ["f2"], "command": "side_bar_rename"},
+    // Delete file
     { "keys": ["ctrl+delete"], "command": "chain", "args": {"commands": [["side_bar_delete"],["close"]]} },
+    // Copy file path
+    { "keys": ["ctrl+shift+c"], "command": "copy_path"},
 ]

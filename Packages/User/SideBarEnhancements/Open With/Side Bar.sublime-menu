@@ -1,0 +1,39 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			{
+				"caption": "Default open",
+				"id": "side-bar-files-open-with-thunar",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "thunar",
+									"extensions":"", //open all even folders
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			{"caption":"-"},
+
+			{
+				"caption": "GIMP",
+				"id": "side-bar-files-open-with-gimp",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "gimp",
+									"extensions":"psd|png|jpg|jpeg",  //any file with these extensions
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			{"caption":"-"}
+		]
+	}
+]
