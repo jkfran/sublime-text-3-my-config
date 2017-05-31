@@ -17,6 +17,8 @@ Packages/User/Package Control.cache/
 # Ignore all files named .DS_Store, ending with .log, etc...
 **/.DS_Store
 **.log
+**.crt
 **.cache
 **.last-run
 **.tmTheme
+**ca-bundle
