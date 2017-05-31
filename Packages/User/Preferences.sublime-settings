@@ -17,7 +17,8 @@
 		"*.jar",
 		"*.zip",
 		"*.pot",
-		"*.po"
+		"*.po",
+		"*.sql"
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
@@ -29,8 +30,9 @@
 		".hg",
 		"CVS",
 		"tmp",
-		"smarty/cache",
-		"smarty/compile"
+		"cache",
+		"smarty/compile",
+		"jquery.uploadify"
 	],
 	"font_face": "Operator Mono Light",
 	"font_options":
