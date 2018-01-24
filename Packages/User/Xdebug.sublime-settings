@@ -1,0 +1,5 @@
+{
+    "port": 9009,
+    "break_on_start": false,
+    "disable_layout": true
+}
