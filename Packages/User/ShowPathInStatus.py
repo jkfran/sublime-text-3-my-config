@@ -35,7 +35,7 @@ class ShowPathInStatus(sublime_plugin.EventListener):
         return path
 
     def on_activated(self, view):
-        view.set_status('_filename', self.get_short_path(view))
+        view.set_status('_filename', self.get_short_path(view) or '')
 
 
 class CopyPathCommand(sublime_plugin.TextCommand):

@@ -2,6 +2,7 @@
 {
     // -1: highlight full line
     "show_in_minimap": -1,
+    "show_line_annotation": false,
     "theme": "Bars.gitgutter-theme",
     "status_bar_text": [
         "⎇ {{branch}}",
