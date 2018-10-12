@@ -32,16 +32,11 @@
 		"smarty/cache",
 		"smarty/compile"
 	],
-	"font_face": "Operator Mono Light",
-	"font_options":
-	[
-		"bold"
-	],
-	"font_size": 13,
+	"font_face": "Operator Mono",
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Fix Mac Path",
 		"Vintage"
 	],
 	"indent_guide_options":
