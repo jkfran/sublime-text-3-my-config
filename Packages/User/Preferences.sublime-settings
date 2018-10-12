@@ -17,7 +17,8 @@
 		"*.jar",
 		"*.zip",
 		"*.pot",
-		"*.po"
+		"*.po",
+		"*.sql"
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
@@ -29,14 +30,16 @@
 		".hg",
 		"CVS",
 		"tmp",
-		"smarty/cache",
-		"smarty/compile"
+		"cache",
+		"smarty/compile",
+		"jquery.uploadify"
 	],
 	"font_face": "Operator Mono",
 	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -46,7 +49,8 @@
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
-	"material_theme_compact_sidebar": true,
+	"material_theme_arrow_folders": true,
+	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
 	"material_theme_tabs_autowidth": true,
 	"overlay_scroll_bars": "enabled",

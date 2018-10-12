@@ -11,6 +11,7 @@ Packages/*
 !Packages/User/
 !Packages/User/*
 Packages/User/Package Control.cache/
+Packages/User/Xdebug.breakpoints
 !Packages/Dictionaries/
 !Packages/Dictionaries/*
 

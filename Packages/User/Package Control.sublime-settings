@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Fix Mac Path"
 	],
 	"installed_packages":
 	[
@@ -12,6 +11,7 @@
 		"Chain of Command",
 		"Dictionaries",
 		"Djaneiro",
+		"DocBlockr",
 		"File Navigator",
 		"Fix Mac Path",
 		"Flask Completions",
@@ -19,12 +19,14 @@
 		"HTML-CSS-JS Prettify",
 		"Jinja2",
 		"jQuery Snippets pack",
+		"MarkdownEditing",
 		"Material Theme",
 		"My Snippets",
 		"Package Control",
 		"PackageResourceViewer",
 		"PHP Syntax Checker",
 		"Random Everything",
+		"SCSS",
 		"SFTP",
 		"SideBarEnhancements",
 		"Smarty",
@@ -32,6 +34,7 @@
 		"SublimeLog",
 		"Sublimerge 3",
 		"Terminal",
+		"Xdebug Client",
 		"Zip Browser"
 	]
 }

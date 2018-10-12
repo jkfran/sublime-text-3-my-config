@@ -1,0 +1,15 @@
+// GitGutter Settings - User
+{
+    // -1: highlight full line
+    "show_in_minimap": -1,
+    "show_line_annotation": false,
+    "theme": "Bars.gitgutter-theme",
+    "status_bar_text": [
+        "⎇ {{branch}}",
+        "{% if compare not in ('HEAD', branch) %}, Comparing against {{compare}}{% endif %}",
+        " │ {{state.title()}}",
+        "{% if deleted != 0 %} {{deleted}}-{% endif %}",
+        "{% if inserted != 0 %} {{inserted}}+{% endif %}",
+        "{% if modified != 0 %} {{modified}}≠{% endif %}"
+    ],
+}

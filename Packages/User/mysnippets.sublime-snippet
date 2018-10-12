@@ -2,3 +2,8 @@
     <content><![CDATA[require('psysh.php'); eval(\Psy\sh());]]></content>
     <tabTrigger>psy</tabTrigger>
 </snippet>
+
+<snippet>
+    <content><![CDATA[error_log(print_r($var, 1), 4);]]></content>
+    <tabTrigger>log</tabTrigger>
+</snippet>
