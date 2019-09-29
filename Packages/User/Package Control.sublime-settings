@@ -1,10 +1,8 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Anaconda",
 		"anaconda_php",
 		"BetterFindBuffer",
@@ -13,7 +11,6 @@
 		"Djaneiro",
 		"DocBlockr",
 		"File Navigator",
-		"Fix Mac Path",
 		"Flask Completions",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
@@ -34,7 +31,6 @@
 		"SublimeLog",
 		"Sublimerge 3",
 		"Terminal",
-		"Xdebug Client",
-		"Zip Browser"
+		"Xdebug Client"
 	]
 }
