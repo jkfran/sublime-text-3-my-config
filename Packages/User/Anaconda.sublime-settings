@@ -5,7 +5,8 @@
     "anaconda_linter_mark_style": "none",
     "pep8_ignore":
     [
-        "E309",
-        "E501",
+        // "E309",  // Expected 1 blank line after class declaration
+        // "E501",  // Line too long (79 characters)
     ],
+    "python_interpreter": "python3"
 }
