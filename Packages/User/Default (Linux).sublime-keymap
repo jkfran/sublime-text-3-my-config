@@ -19,7 +19,7 @@
     { "keys": ["super+j"], "command": "move", "args" : {"by": "characters", "forward": false} },
     { "keys": ["super+l"], "command": "move", "args" : {"by": "characters", "forward": true} },
     { "keys": ["super+h"], "command": "move_to", "args" : {"extend": false, "to": "bol"} },
-    { "keys": ["super+ñ"], "command": "move_to", "args" : {"extend": false, "to": "eol"} },
+    { "keys": ["super+;"], "command": "move_to", "args" : {"extend": false, "to": "eol"} },
     { "keys": ["super+8"], "command": "move_to", "args" : {"extend": false, "to": "bof"} },
     { "keys": ["super+,"], "command": "move_to", "args" : {"extend": false, "to": "eof"} },
     { "keys": ["ctrl+j"], "command": "move", "args": {"by": "words", "forward": false} },
@@ -64,13 +64,24 @@
     { "keys": ["control+o"], "command": "file_navigator" },
 
     // Missing keys
-    { "keys": ["control+ñ"], "command": "expand_selection", "args" : {"to": "line"} }, // for ctrl + L
+    { "keys": ["control+;"], "command": "expand_selection", "args" : {"to": "line"} }, // for ctrl + L
 
     // Stack Overflow Snipplets
     { "keys": ["control+shift+h"], "command": "sosnippets" },
 
     // Sublime merge
     { "keys": ["ctrl+alt+s"], "command": "sublimerge"},
+
+    // Terminus
+    { "keys": ["alt+i"], "command": "terminus_open" },
+    { "keys": ["ctrl+w"], "command": "terminus_close", "context": [{ "key": "terminus_view"}] },
+    { "keys": ["super+j"], "command": "terminus_keypress", "args": {"key": "left"}, "context": [{"key": "terminus_view"}] },
+    { "keys": ["super+l"], "command": "terminus_keypress", "args": {"key": "right"}, "context": [{"key": "terminus_view"}] },
+    { "keys": ["super+i"], "command": "terminus_keypress", "args": {"key": "up"}, "context": [{"key": "terminus_view"}] },
+    { "keys": ["super+k"], "command": "terminus_keypress", "args": {"key": "down"}, "context": [{"key": "terminus_view"}] },
+    { "keys": ["ctrl+backspace"], "command": "terminus_keypress", "args": {"key": "backspace", "alt": true}, "context": [{"key": "terminus_view"}] },
+    { "keys": ["super+h"], "command": "terminus_keypress", "args": {"key": "home"}, "context": [{"key": "terminus_view"}] },
+    { "keys": ["super+;"], "command": "terminus_keypress", "args": {"key": "end"}, "context": [{"key": "terminus_view"}] },
 
     // Rename file
     { "keys": ["f2"], "command": "side_bar_rename"},

@@ -1,0 +1,39 @@
+{
+    "256color": true,
+    "unix_term": "xterm-256color",
+    "preserve_keys" : [
+        "ctrl+p",
+        "ctrl+f",
+    ],
+    "theme": "user",
+    "user_theme_colors": {
+        "background": "#212121",
+        "foreground": "#eeffff",
+        "caret": "#ffffff",
+        "block_caret": "#ffffff",
+        "selection": "#353535",
+        "selection_foreground": "#eeffff",
+        "00": "#5c6f70",  // .black
+        "01": "#ff4148",  // .red
+        "02": "#cadd54",  // .green
+        "03": "#cdcd00",  // .brown
+        "04": "#34a2f0",  // .blue
+        "05": "#de0b61",  // .magenta
+        "06": "#00abbd",  // .cyan
+        "07": "#f5f5f5",  // .white
+        "08": "#2a2a2a",  // light_black
+        "09": "#ff4f59",  // light_red
+        "10": "#c0d94c",  // light_green
+        "11": "#ffff00",  // light_brown
+        "12": "#24c2fb",  // light_blue
+        "13": "#ff3a81",  // light_magenta
+        "14": "#00fffd",  // light_cyan
+        "15": "#f5f5f5",   // light_white
+    },
+
+    "view_settings": {
+        "font_size": 11,
+        "line_padding_top": 3,
+        "line_padding_bottom": 3,
+    },
+}

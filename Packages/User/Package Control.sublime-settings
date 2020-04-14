@@ -14,10 +14,12 @@
 		"Dictionaries",
 		"Djaneiro",
 		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
 		"File Navigator",
 		"Flask Completions",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
+		"isort",
 		"Jinja2",
 		"jQuery Snippets pack",
 		"JsPrettier",
@@ -34,9 +36,10 @@
 		"Smarty",
 		"Stack Overflow Snippets",
 		"sublack",
+		"SublimeLinter-stylelint",
 		"SublimeLog",
 		"Sublimerge 3",
-		"Terminal",
+		"Terminus",
 		"Xdebug Client"
 	]
 }
